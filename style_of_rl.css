@@ -1,0 +1,69 @@
+body{
+	background: radial-gradient(rgba(500,400,400,.1),rgba(500,400,400,.1)),rgba(500,400,400,.1) url(images/firefighters.jpeg);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.login_box{
+	width: 325px;
+	min-height: auto;
+	margin: 1% auto;
+	padding: 20px;
+	border-radius: 5px;
+	box-shadow: inset 0 0 5px gray;
+	background:  #E1E1E1;
+	/*#BDBDBD*/
+}
+.login_head{
+	text-align: center;
+}
+.login_head img{
+	border-radius: 50%;
+	width: 150px;
+	height: 150px;
+}
+/*.login_head h2{
+	color: #77D330;
+	line-height: 0px;
+	font-family: 'Arsenal',sans-serif;
+	font-size: 33px;
+}*/
+/*.login_head hr{
+	line-height: 0px;
+	color: green;
+}*/
+.login_body{
+	margin-top: 30px;
+	text-align: center;
+}
+.login_box .input{
+	padding: 8px;
+	width: 270px;
+	margin-bottom: 20px;
+	border: 1px solid gray;
+	border-radius: 5px;
+}
+.login_box .input:focus{
+	box-shadow: 0 0 5px #638E9B;
+}
+.login_box .btn{
+	width: 290px;
+	padding: 8px;
+	background: #638E9B;
+	cursor: pointer;
+	color: #fff;
+	font-size: 17px;
+	border-radius: 5px;
+	border: 1px solid #638E9B;
+}
+.login_box .btn:hover{
+	color: #000;
+	background: darkgreen;
+}
+.login_box a{
+	color: rgb(104, 145, 162);
+	padding-left: 17px;
+}
+.login_box a:hover{
+	color: green;
+}
+

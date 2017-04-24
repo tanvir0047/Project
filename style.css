@@ -1,0 +1,65 @@
+body{
+	background: #272822;
+}
+.custom{
+	background: #254B6D;
+	border-radius: 0;
+	border: none;
+}
+.key{
+	color: red;
+	font-weight: bold;
+	font-size: 20px;
+}
+.save h2{
+	color: white;
+	font-family: 'Montserrat',sans-serif;
+}
+.map h2{
+	color: white;
+	font-family: 'Montserrat',sans-serif;
+}
+.alert_class{
+	background: white;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.alert_class h2{
+	color: #254B6D;
+	font-family: 'Montserrat',sans-serif;
+}
+
+/*notification*/
+.badge1 {
+	position:relative;
+	}
+.badge1[data-badge]:after {
+	content:attr(data-badge);
+	position:absolute;
+	top:-25px;
+	right:-10px;
+	font-size:.7em;
+	background:red;
+	color:white;
+	width:18px;height:18px;
+	text-align:center;
+	line-height:18px;
+	border-radius:50%;
+	box-shadow:0 0 1px #333;
+}
+.Social{
+	text-align: justify;
+    text-justify: inter-word;
+	color: white;
+}
+.Social h2{
+	color: white;
+	font-family: 'Montserrat',sans-serif;
+}
+.live h2{
+	color: white;
+	font-family: 'Montserrat',sans-serif;
+}
+.navbar-right{
+	margin-left: -50%;
+}
